@@ -1,0 +1,42 @@
+/********************************************Own System Panel.css ***************************************** */
+
+
+.own-system-panel{
+    position: fixed;
+    z-index: 1000;
+    bottom: 0%;
+    left: 30%;
+}
+
+@keyframes blink {
+    0% {
+      fill: #ECECEC;
+    }
+    50% {
+      fill: #CF7AD1;
+    }
+    100% {
+      fill: #ECECEC;
+    }
+  }
+  
+  .blinking {
+    animation: blink 0.8s infinite;
+  }
+  
+
+  @keyframes blink-day {
+    0% {
+      fill: #ECECEC;
+    }
+    50% {
+      fill: #F2FF61;
+    }
+    100% {
+      fill: #ECECEC;
+    }
+  }
+  
+  .blinking-day {
+    animation: blink-day 0.8s infinite;
+  }

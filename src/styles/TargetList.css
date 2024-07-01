@@ -1,0 +1,13 @@
+.target-list {
+    position: absolute;
+    z-index: 1000;
+    top: 10%;
+    left: 17%;
+}
+
+.target-list .open-sidebar {
+    position: absolute;
+    z-index: 1000;
+    top: 21%;
+    left: 19%;
+}

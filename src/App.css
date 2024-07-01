@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #34323ab8;
+    --secondary-color: #49474F;
+    --tertiary-color: #2D76E3;
+}
+
+body {
+    background: url('./assets/app-bg.svg') no-repeat;
+    background-size: cover;
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-input input {
+    padding: 15px 25px;
+    /* background: none; */
+    background: transparent; /* Set the background to transparent */
+    border: none;
+    margin: 3px;
+    color: #FFFFFF;
+    font-size: medium;
+}
+
+.login-input input::placeholder {
+    color: #FFFFFF;
+    font-size: medium;
+    text-align: left;
+}
+
+.login-input input:focus {
+    outline: none !important;
+}
+input[type="text"] {
+  background: transparent;
+  border: none;
+}

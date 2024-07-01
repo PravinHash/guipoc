@@ -1,0 +1,76 @@
+.control-panel{
+    display: flex;
+    width: 450px;
+    height: 20vh;
+    overflow-x: hidden;
+    transition: width 0.3s;
+    position: fixed;
+    bottom: 4%;
+    left: 30%;
+    z-index: 1000;
+    background-color: #34323A;
+    border-radius: 15px;
+    box-shadow: 0 1px 3px var(--tertiary-color);    
+}
+
+.panel-item{
+    padding: 15px 10px;
+}
+
+.panel-btn{
+    padding: 2px;
+    justify-content: center;
+}   
+
+.move-btn{
+    padding: 0px 0px;
+    margin: 0;
+}
+
+.center-btn{
+    margin: 0;
+    padding: 0px 0px;
+    width: 40px;
+    height: 95px;
+    justify-content: center;
+}
+
+.center-btn img{
+    width: 25px;
+}
+
+.dragger{
+    cursor: grab;
+}
+
+/* Add the blinking class and animation for left and right buttons */
+.blinking-left {
+    animation: blink 0.5s linear infinite alternate;
+  }
+  
+  .blinking-right {
+    animation: blink 0.5s linear infinite alternate;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+      filter: brightness(100%) hue-rotate(0deg);
+    }
+    100% {
+      opacity: 0.5;
+      filter: brightness(50%) hue-rotate(0deg);
+    }
+  }
+  
+  /* Add red color for the left and right buttons */
+  .left-btn,
+  .right-btn {
+    filter: brightness(100%) hue-rotate(0deg);
+    transition: filter 0.3s;
+  }
+  
+  .blinking-left .left-btn,
+  .blinking-right .right-btn {
+    filter: brightness(50%) hue-rotate(0deg);
+  }
