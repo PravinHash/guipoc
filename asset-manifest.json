@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/guipoc/static/css/main.d1e2561c.css",
-    "main.js": "/guipoc/static/js/main.b82da124.js",
+    "main.js": "/guipoc/static/js/main.ed0cbe46.js",
     "static/js/787.823a09c7.chunk.js": "/guipoc/static/js/787.823a09c7.chunk.js",
     "static/media/night_map_background.png": "/guipoc/static/media/night_map_background.cd92875ebff8cc6934d2.png",
     "static/media/day_map_background.png": "/guipoc/static/media/day_map_background.86961db97946890e718d.png",
@@ -80,11 +80,11 @@
     "static/media/pie-l-day.svg": "/guipoc/static/media/pie-l-day.f37ac03a60246139da69afd3ea7c2b83.svg",
     "static/media/pie-l.svg": "/guipoc/static/media/pie-l.4d7434547a4268c6bce5b4f594abd197.svg",
     "main.d1e2561c.css.map": "/guipoc/static/css/main.d1e2561c.css.map",
-    "main.b82da124.js.map": "/guipoc/static/js/main.b82da124.js.map",
+    "main.ed0cbe46.js.map": "/guipoc/static/js/main.ed0cbe46.js.map",
     "787.823a09c7.chunk.js.map": "/guipoc/static/js/787.823a09c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1e2561c.css",
-    "static/js/main.b82da124.js"
+    "static/js/main.ed0cbe46.js"
   ]
 }
